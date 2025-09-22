@@ -9,47 +9,21 @@ redirect_from:
 
 👨🏻‍💻 I’m an AI & Data Science engineering student at **ESIEE Paris**, studying **Physics** in parallel at **Sorbonne University**.
 
-🔬 **Research & builder mindset.** I’m interested in **applied LLMs**, evaluation/robustness on user-generated data, **retrieval-augmented** systems, and the craft of turning messy real-world signals into reliable, shippable tools. I like small, testable repos, clean notebooks, and stress-tests that actually break things before users do.
+🔬 My interests are in **applied machine learning** building simple, reliable systems and evaluating them carefully.
 
-📚 **Where to explore:** a few highlights live in my [**Portfolio**](/portfolio/) (short write-ups; deeper notes inside each entry). I keep longer technical notes private until they’re stable—quality over noise.
+🤝 I enjoy helping others learn; from **November** I’ll tutor mathematics for first- and second-year undergraduates.
 
 ---
 
 ## Selected Experience
 
 ### 👨🏻‍🔬 Professional / Research Experience
-I co-founded reaply.ai — a practical take on turning customer reviews into structured signals and useful operations.
 
-**CNRS / ESYCOM Lab — Research Intern.** Worked on conditioning circuits for **triboelectric nanogenerators (TENG)**; modeled variants and validated **Bluetooth-powered** transmission on benches (LTSpice, scopes). Learned to be skeptical, measure twice, and share plots that speak.
+Since **April 2024**, I have been a Co-Founder at **[Reaply](https://reaply.ai)**, building applied AI for review intelligence. I work on the data pipeline that processes **10k+ reviews/day** across **200+ locations** (collection, cleaning, cloud storage with Python) and on the analytics layer—multilingual auto-replies and key insights (themes, sentiment, intent) via the OpenAI API and external integrations. *Paris, Apr 2024–present.*
 
-**Product-oriented ML.** I enjoy shipping small end-to-end stacks (ingest → clean → analyze → surface) with a bias for reliability, UX clarity, and leaving room for ablations.
+I previously interned at the **CNRS / ESYCOM Laboratory** (4 weeks, **26/06/2023–21/07/2023**). My work was to **simulate and test a conditioning circuit for a triboelectric nanogenerator (TENG)** to harvest energy and **power a Bluetooth transmission to a smartphone**. The study was inspired by the Nature paper *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*. I modeled circuit variants in **LTSpice**, ran bench measurements (oscilloscope, sensors), and compared topologies to identify practical constraints and viable operating points.
 
----
-
-## 🧪 Projects (short teasers)
-**UniSpace — Campus Room Booking.** Real-time availability, conflict checks, role-based access, and usage analytics.  
-*Stack:* React/Tailwind (or Flutter), Firebase Auth/Firestore, Cloud Functions.  
-*See more:* [Portfolio](/portfolio/)
-
-**Chrome mini-extension — Smart Filetype Search.** A tiny helper to speed up finding **datasets / PDFs / slides** by composing advanced queries and remembering useful patterns. Minimal UI, gets out of the way.  
-*See more:* [Portfolio](/portfolio/)
-
-**Review-Intelligence notes.** I sometimes distill lessons learned from large-scale, multilingual feedback streams—how to structure themes, measure consistency, and avoid over-prompting. When stable, parts will graduate to the portfolio.
-
----
-
-## 🤖 Open Source & Contributions
-I like **re-implementing** small ideas and releasing **minimal, readable** baselines (k-NN/SVM, retrieval scaffolding, evaluation scripts). When I publish something, I aim for:
-- a tiny, reproducible repo,
-- a short README that explains *why* before *how*,
-- results tables that make comparisons honest.
-
-A few utilities from the projects above occasionally get open-sourced in trimmed-down form (indexers, prompt/eval runners). Links will appear in the [Portfolio](/portfolio/) as they harden.
-
----
-
-## 📜 Re-implementing & Reproducing
-I learn fastest by **reproducing**: lock a metric, define a small eval set, then iterate. I favor clarity (ablation tables, exact seeds) over breadth. If something beats a decent baseline, it earns its keep; otherwise it’s a note, not a feature.
+For **four years**, I ran **MyStyle Media Agency**, a social-media analytics venture that evaluated Instagram accounts with quantitative methods to select creators for brand campaigns; I also operated a **140k-follower** channel.
 
 ---
 

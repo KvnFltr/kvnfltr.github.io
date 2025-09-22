@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Kévin's Homepage"
 title_separator          : "-"
 name                     : &name "Kévin Feltrin"
-description              : &description "AI/DS engineering student • Co-founder @ Reaply • research-oriented portfolio"
+description              : &description "AI/DS engineering student • Co-founder @ Reaply"
 url                      : https://kvnfltr.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KvnFltr/kvnfltr.github.io"
@@ -22,11 +22,10 @@ repository               : "KvnFltr/kvnfltr.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "author:
-  avatar: "/images/profile_picture_kevin.png"
+  avatar           : "/images/profile_picture_kevin.png"
   name             : "Kévin Feltrin"
   pronouns         : 
-  bio              : "Data Science & AI @ ESIEE Paris · Physics @ Sorbonne • Co-founder of Reaply"
+  bio              : "Data Science & AI @ ESIEE Paris \nPhysics @ Sorbonne \nCo-founder of Reaply"
   location         : "Paris, France"
   employer         : "Reaply"
   uri              : 

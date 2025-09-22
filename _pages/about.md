@@ -1,14 +1,13 @@
 ---
 permalink: /
-title: "Hello there, I’m Kévin!"
+title: "👋🏼 Hello there, I’m Kévin!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-👋🏼 **Hello there, I’m Kévin!**  
-👨🏻‍💻 I’m an AI & Data Science engineering student at **ESIEE Paris (DSIA)**, studying **Physics** in parallel at **Sorbonne University**.
+👨🏻‍💻 I’m an AI & Data Science engineering student at **ESIEE Paris**, studying **Physics** in parallel at **Sorbonne University**.
 
 🔬 **Research & builder mindset.** I’m interested in **applied LLMs**, evaluation/robustness on user-generated data, **retrieval-augmented** systems, and the craft of turning messy real-world signals into reliable, shippable tools. I like small, testable repos, clean notebooks, and stress-tests that actually break things before users do.
 

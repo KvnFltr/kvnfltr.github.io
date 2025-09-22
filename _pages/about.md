@@ -18,7 +18,7 @@ redirect_from:
 ## Selected Experience
 
 ### 👨🏻‍🔬 Professional / Research Experience
-**Independent student research.** Recently, I’ve been prototyping lightweight **RAG** pipelines and **evaluation harnesses** for noisy, multilingual text: prompt stress-tests, answer scoring with simple baselines vs LLM judges, and dataset slices for failure analysis. The goal is repeatability first, flash later.
+I co-founded reaply.ai — a practical take on turning customer reviews into structured signals and useful operations.
 
 **CNRS / ESYCOM Lab — Research Intern.** Worked on conditioning circuits for **triboelectric nanogenerators (TENG)**; modeled variants and validated **Bluetooth-powered** transmission on benches (LTSpice, scopes). Learned to be skeptical, measure twice, and share plots that speak.
 
@@ -53,15 +53,8 @@ I learn fastest by **reproducing**: lock a metric, define a small eval set, then
 
 ---
 
-## Teaching
-Starting **November**, I’ll be **tutoring Mathematics** (fundamentals & problem-solving). I like designing short sequences with tight feedback loops, so learners see progress weekly rather than eventually.
+## 📚 Teaching and Community Contributions
+Starting **November**, I will **tutor mathematics** for first- and second-year students (algebra and calculus). I prepare targeted exercise sets, work through exam-style problems, and give quick written feedback after each session.
 
----
+I am the **Secretary-General of Jeunes Français de l’Étranger (JFDE)**. I coordinate events and small projects for young French expatriates, manage contacts with partners, and handle planning and follow-ups.
 
-## Involvement
-**Secretary-General — Jeunes Français de l’Étranger (JFDE).** National youth representation for French expatriates: initiatives, partnerships, and pragmatic support so projects actually move.
-
----
-
-## Elsewhere
-I co-founded **[reaply.ai](https://reaply.ai)** — a practical take on turning customer reviews into structured signals and **useful operations**. I keep it light here; if you’re curious about the product angle, you’ll find pointers inside the [Portfolio](/portfolio/).

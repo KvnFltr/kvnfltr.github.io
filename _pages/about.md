@@ -54,7 +54,6 @@ I learn fastest by **reproducing**: lock a metric, define a small eval set, then
 ---
 
 ## 📚 Teaching and Community Contributions
-Starting **November**, I will **tutor mathematics** for first- and second-year students (algebra and calculus). I prepare targeted exercise sets, work through exam-style problems, and give quick written feedback after each session.
+Starting **November**, I will **tutor mathematics** for first- and second-year undergraduate students (algebra and calculus). I prepare targeted exercise sets, work through exam-style problems, and provide brief written feedback after each session.
 
-I am the **Secretary-General of Jeunes Français de l’Étranger (JFDE)**. I coordinate events and small projects for young French expatriates, manage contacts with partners, and handle planning and follow-ups.
-
+Also, I am the Secretary-General of Jeunes Français de l’Étranger (JFDE). JFDE is a national youth association that represents and supports young French expatriates through advocacy, community programs, and networking.

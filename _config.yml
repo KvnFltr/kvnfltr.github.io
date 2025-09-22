@@ -26,9 +26,10 @@ author:
   name             : "Kévin Feltrin"
   pronouns         : 
   bio              : "Data Science & AI @ ESIEE Paris | Physics @ Sorbonne | Co-founder of Reaply"
-  location         : "Paris, France"
-  location         : "ESIEE Paris"
-  location         : "Sorbonne University"
+  location         : "Paris, France"              # une seule fois
+  employers :
+    - "ESIEE Paris"
+    - "Sorbonne University"
   uri              : 
   email            : "kevin.feltrin@edu.esiee.fr" 
 

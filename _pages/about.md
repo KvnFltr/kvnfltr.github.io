@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-🎓 I study **AI & Data Science** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track) 🇫🇷.
+🎓 I study **AI & Data Science** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track).
 
 👀 I’m interested in **applied machine learning**, careful evaluation, and building small, usable systems from real data.
 

@@ -22,7 +22,7 @@ repository               : "KvnFltr/kvnfltr.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile_picture_kevin.png"
+  avatar           : "/profile_picture_kevin.png"
   name             : "Kévin Feltrin"
   pronouns         : 
   bio              : "Data Science & AI @ ESIEE Paris | Physics @ Sorbonne | Co-founder of Reaply"

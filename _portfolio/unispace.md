@@ -1,6 +1,6 @@
 ---
 title: "UniSpace — Campus Room Booking"
-excerpt: "Real-time room availability and booking for ESIEE Paris. 🏆 *Coup de Cœur* — 20th ESIEE **Jour des Projets**<br/><img src='/images/unispace-stand.jpeg'>"
+excerpt: "Real-time room availability and booking for ESIEE Paris. 🏆 *Coup de Cœur* — 20th ESIEE **Jour des Projets**<br/><img src='/images/unispace-stand.jpeg' alt='UniSpace stand' width='360'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "UniSpace — Campus Room Booking"
-excerpt: "Real-time room availability and booking for ESIEE Paris. 🏆 *Coup de Cœur* — 20th ESIEE **Jour des Projets**<br/><img src='/images/unispace-stand.jpg'>"
+excerpt: "Real-time room availability and booking for ESIEE Paris. 🏆 *Coup de Cœur* — 20th ESIEE **Jour des Projets**<br/><img src='/images/unispace-stand.jpeg'>"
 collection: portfolio
 ---
 
@@ -10,7 +10,7 @@ collection: portfolio
 
 <p>
   <a class="btn btn--primary" href="https://github.com/nikxo/unispace" target="_blank" rel="noopener">Source code</a>
-  <a class="btn" href="/files/rapport_unispace.pdf" target="_blank" rel="noopener">Rapport (PDF, en français)</a>
+  <a class="btn" href="/files/rapport_unispace.pdf" target="_blank" rel="noopener">Report (PDF, in franch)</a>
 </p>
 
 ### Why
@@ -38,4 +38,4 @@ Backend & data model (**Firestore schema**), **Cloud Functions** (availability, 
 
 *Photos: stand above; award badge below.*
 
-<img src="/images/unispace-award.jpg" alt="UniSpace — Coup de Cœur award (20th ESIEE Jour des Projets)" width="420"/>
+<img src="/images/unispace-award.jpeg" alt="UniSpace — Coup de Cœur award (20th ESIEE Jour des Projets)" width="420"/>

@@ -11,7 +11,7 @@ redirect_from:
 
 👀 I’m interested in **applied machine learning**, careful evaluation, and building small, usable systems from real data.
 
-🚀 I co-founded an **AI review-intelligence platform**: **[reaply.ai](https://reaply.ai)**
+🚀 I co-founded an **AI review-intelligence SaaS**: **[reaply.ai](https://reaply.ai)**
 
 ---
 

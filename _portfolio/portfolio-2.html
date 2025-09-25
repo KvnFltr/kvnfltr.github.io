@@ -1,7 +1,88 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "CNRS / ESYCOM — Energy harvesting with TENG"
+excerpt: "Conditioning circuit for a triboelectric nanogenerator powering a Bluetooth node.<br/><img src='/images/esycom-schematic.png'>"
 collection: portfolio
+permalink: /portfolio/esycom-teng/
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Four-week research internship at the **CNRS / ESYCOM Laboratory** *(26/06/2023–21/07/2023)*.  
+**Goal:** simulate and validate a **conditioning circuit** for a **Triboelectric Nanogenerator (TENG)** that harvests mechanical energy (vehicle pass) and **powers a Bluetooth transmission** to a smartphone.
+
+**Reference:** Nature Communications — *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.  
+<p>
+  <a class="btn btn--primary" href="https://www.nature.com/articles/s41467-020-17019-5" target="_blank" rel="noopener">Nature article</a>
+  <a class="btn" href="/files/rapport_esycom.pdf" target="_blank" rel="noopener">Rapport (PDF, en français)</a>
+  <a class="btn" href="/files/presentation_esycom.pptx" target="_blank" rel="noopener">Slides (PPTX)</a>
+</p>
+
+### Context & Objective
+TENG devices deliver **high-voltage, low-current, pulsed** outputs—not directly usable by electronics. The project adapts the two-stage chain from the paper—**Bennet doubler → hysteresis switch → step-down DC-DC → regulator**—to store energy and supply **~3.3–3.6 V** for a Bluetooth node.  
+My task was to **compare circuit options**, **model** them in **LTSpice**, and **verify** behaviors on a **bench prototype** and **on-site tests**.
+
+### Approach
+1. **Modeling.** I implemented the full path in LTSpice with parametric sweeps for:
+   - Bennet doubler capacitors/diodes (charging efficiency);  
+   - Hysteresis thresholds (switching stability and charge bursts);  
+   - Storage capacitance & DC-DC parameters (ripple vs. time-to-start).  
+2. **Measurement.** I assembled a prototype, captured **node voltages** (M, N, P, Q) with an oscilloscope, and logged cycles.  
+3. **Field test.** I validated energy input with a **vehicle pass** on the ramp device; mechanical alignment and surface friction were tuned for repeatability.
+
+### Selected results
+- **Node N charging:** the doubler accumulates charge with the expected sawtooth growth; the **hysteresis** provides clean, bursty discharges that accelerate storage.
+- **Regulated output:** **Q** rises to a **stable ~3.3 V**, sufficient to boot the Bluetooth node; storage sizing trades start-up time vs. stability.
+- **Practical insights:** mechanical coupling dominates real-world variance. Small changes in ramp pressure/positioning significantly impact available energy—guardbands are necessary.
+
+### What I did
+- **LTSpice modeling & parameter sweeps** (Bennet, switching thresholds, storage dimensioning).  
+- **Bench measurements & comparison** to simulation; consolidation into **operating windows** (component values that consistently meet the 3.3 V target).  
+- **Recommendations** for next iterations: improved mechanical fixture for the ramp, diode selection for lower forward drop, and a soft-start strategy on the DC-DC stage.
+
+---
+
+### Figures
+
+{% include figure
+   image_path="/images/esycom-schematic.png"
+   alt="Conditioning chain: Bennet doubler → hysteresis switch → step-down DC-DC → regulator → load"
+   caption="a) High-level conditioning chain from TENG to regulated output with probe nodes (M, N, P, Q). b–f) Expected node behaviors (charging, switching, storage and regulation)."
+   width="980" %}
+
+---
+
+{% include figure
+   image_path="/images/esycom-device.jpg"
+   alt="Energy-harvesting ramp used for vehicle pass tests"
+   caption="Energy-harvesting ramp used for **vehicle pass** tests to feed the TENG module."
+   width="980" %}
+
+---
+
+{% include figure
+   image_path="/images/esycom-nodeN.png"
+   alt="LTSpice – voltage at node N"
+   caption="Simulation (LTSpice) — **Node N**: cumulative charge with sawtooth growth prior to switching."
+   width="980" %}
+
+---
+
+{% include figure
+   image_path="/images/esycom-output.png"
+   alt="LTSpice – regulated output Q ≈ 3.3 V"
+   caption="Simulation (LTSpice) — **Output Q** reaches a regulated **~3.3 V** level suitable for the Bluetooth node."
+   width="980" %}
+
+---
+
+{% include figure
+   image_path="/images/esycom-bench.jpg"
+   alt="Bench prototype of the conditioning circuit"
+   caption="Bench prototype for electrical validation (oscilloscope captures at the probed nodes)."
+   width="980" %}
+
+---
+
+{% include figure
+   image_path="/images/esycom-teng.jpg"
+   alt="Triboelectric Nanogenerator (TENG) element"
+   caption="Triboelectric Nanogenerator (TENG) element used for mechanical-to-electrical energy conversion."
+   width="980" %}

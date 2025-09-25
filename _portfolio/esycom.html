@@ -20,69 +20,61 @@ TENG devices deliver **high-voltage, low-current, pulsed** outputs—not directl
 My task was to **compare circuit options**, **model** them in **LTSpice**, and **verify** behaviors on a **bench prototype** and **on-site tests**.
 
 ### Approach
-1. **Modeling.** I implemented the full path in LTSpice with parametric sweeps for:
-   - Bennet doubler capacitors/diodes (charging efficiency);  
-   - Hysteresis thresholds (switching stability and charge bursts);  
-   - Storage capacitance & DC-DC parameters (ripple vs. time-to-start).  
-2. **Measurement.** I assembled a prototype, captured **node voltages** (M, N, P, Q) with an oscilloscope, and logged cycles.  
-3. **Field test.** I validated energy input with a **vehicle pass** on the ramp device; mechanical alignment and surface friction were tuned for repeatability.
+1. **Modeling.** Full path in LTSpice with parametric sweeps of:
+   - Bennet doubler capacitors/diodes (charging efficiency)  
+   - Hysteresis thresholds (switching stability & charge bursts)  
+   - Storage & DC-DC (ripple vs. time-to-start)
+2. **Measurement.** Prototype assembled; **node voltages** (M, N, P, Q) captured on scope.  
+3. **Field test.** Validation with a **vehicle pass** over the ramp; alignment/friction tuned for repeatability.
 
 ### Selected results
-- **Node N charging:** the doubler accumulates charge with the expected sawtooth growth; the **hysteresis** provides clean, bursty discharges that accelerate storage.
-- **Regulated output:** **Q** rises to a **stable ~3.3 V**, sufficient to boot the Bluetooth node; storage sizing trades start-up time vs. stability.
-- **Practical insights:** mechanical coupling dominates real-world variance. Small changes in ramp pressure/positioning significantly impact available energy—guardbands are necessary.
+- **Node N** shows the expected sawtooth charge then burst discharge when the **hysteresis** triggers.  
+- **Output Q** reaches a **stable ~3.3 V**, enough to boot a Bluetooth node; storage sizing trades start-up time vs stability.  
+- **Practical note:** mechanical coupling dominates variance; small changes in ramp pressure/position noticeably affect available energy.
 
 ### What I did
-- **LTSpice modeling & parameter sweeps** (Bennet, switching thresholds, storage dimensioning).  
-- **Bench measurements & comparison** to simulation; consolidation into **operating windows** (component values that consistently meet the 3.3 V target).  
-- **Recommendations** for next iterations: improved mechanical fixture for the ramp, diode selection for lower forward drop, and a soft-start strategy on the DC-DC stage.
+- **LTSpice modeling & sweeps** (Bennet, thresholds, storage).  
+- **Bench measurements** and consolidation into **operating windows** hitting the 3.3 V target.  
+- **Recommendations:** improved mechanical fixture, lower-drop diodes, and soft-start on the DC-DC stage.
 
 ---
 
-### Figures
-
-{% include figure
-   image_path="/images/esycom-schematic.png"
-   alt="Conditioning chain: Bennet doubler → hysteresis switch → step-down DC-DC → regulator → load"
-   caption="a) High-level conditioning chain from TENG to regulated output with probe nodes (M, N, P, Q). b–f) Expected node behaviors (charging, switching, storage and regulation)."
-   width="980" %}
+<figure>
+  <img src="/images/esycom-schematic.png" alt="Conditioning chain: Bennet doubler → hysteresis switch → step-down DC-DC → regulator → load" width="980">
+  <figcaption><strong>Figure 1.</strong> High-level conditioning chain from TENG to regulated output with probe nodes (M, N, P, Q).</figcaption>
+</figure>
 
 ---
 
-{% include figure
-   image_path="/images/esycom-device.jpg"
-   alt="Energy-harvesting ramp used for vehicle pass tests"
-   caption="Energy-harvesting ramp used for **vehicle pass** tests to feed the TENG module."
-   width="980" %}
+<figure>
+  <img src="/images/esycom-device.jpg" alt="Energy-harvesting ramp used for vehicle pass tests" width="980">
+  <figcaption><strong>Figure 2.</strong> Energy-harvesting ramp used for <em>vehicle pass</em> tests to feed the TENG module.</figcaption>
+</figure>
 
 ---
 
-{% include figure
-   image_path="/images/esycom-nodeN.png"
-   alt="LTSpice – voltage at node N"
-   caption="Simulation (LTSpice) — **Node N**: cumulative charge with sawtooth growth prior to switching."
-   width="980" %}
+<figure>
+  <img src="/images/esycom-nodeN.png" alt="LTSpice – voltage at node N" width="980">
+  <figcaption><strong>Figure 3.</strong> LTSpice — <em>Node N</em>: cumulative charge with sawtooth growth prior to switching.</figcaption>
+</figure>
 
 ---
 
-{% include figure
-   image_path="/images/esycom-output.png"
-   alt="LTSpice – regulated output Q ≈ 3.3 V"
-   caption="Simulation (LTSpice) — **Output Q** reaches a regulated **~3.3 V** level suitable for the Bluetooth node."
-   width="980" %}
+<figure>
+  <img src="/images/esycom-output.png" alt="LTSpice – regulated output Q ≈ 3.3 V" width="980">
+  <figcaption><strong>Figure 4.</strong> LTSpice — regulated output <em>Q</em> ≈ 3.3 V for the Bluetooth node.</figcaption>
+</figure>
 
 ---
 
-{% include figure
-   image_path="/images/esycom-bench.jpg"
-   alt="Bench prototype of the conditioning circuit"
-   caption="Bench prototype for electrical validation (oscilloscope captures at the probed nodes)."
-   width="980" %}
+<figure>
+  <img src="/images/esycom-bench.jpg" alt="Bench prototype of the conditioning circuit" width="980">
+  <figcaption><strong>Figure 5.</strong> Bench prototype and oscilloscope captures.</figcaption>
+</figure>
 
 ---
 
-{% include figure
-   image_path="/images/esycom-teng.jpg"
-   alt="Triboelectric Nanogenerator (TENG) element"
-   caption="Triboelectric Nanogenerator (TENG) element used for mechanical-to-electrical energy conversion."
-   width="980" %}
+<figure>
+  <img src="/images/esycom-teng.jpg" alt="Triboelectric Nanogenerator (TENG) element" width="980">
+  <figcaption><strong>Figure 6.</strong> Triboelectric Nanogenerator (TENG) element.</figcaption>
+</figure>

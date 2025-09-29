@@ -1,12 +1,11 @@
 ---
 title: "CNRS / ESYCOM — Energy harvesting with TENG"
-excerpt: "Conditioning circuit for a triboelectric nanogenerator powering a Bluetooth node.<br/><img src='/images/esycom-schematic.png' alt='ESYCOM schematic' width='500'>"
+excerpt: "Conditioning circuit for a triboelectric nanogenerator powering a Bluetooth node.<br/><img src='/images/esycom-schematic.png'>"
 collection: portfolio
 permalink: /portfolio/esycom-teng/
 ---
 
-
-Research internship at the **CNRS / ESYCOM Laboratory**.  
+Four-week research internship at the **CNRS / ESYCOM Laboratory** *(26/06/2023–21/07/2023)*.  
 **Goal:** simulate and validate a **conditioning circuit** for a **Triboelectric Nanogenerator (TENG)** that harvests mechanical energy (vehicle pass) and **powers a Bluetooth transmission** to a smartphone.
 
 **Reference:** Nature Communications — *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.  

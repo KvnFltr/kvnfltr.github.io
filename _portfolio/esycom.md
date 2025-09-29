@@ -2,7 +2,6 @@
 title: "CNRS / ESYCOM — Energy harvesting with TENG"
 excerpt: "Conditioning circuit for a triboelectric nanogenerator powering a Bluetooth node.<br/><img src='/images/esycom-schematic.png'alt='ESYCOM schematic' width='500'>"
 collection: portfolio
-permalink: /portfolio/esycom-teng/
 ---
 
 Four-week research internship at the **CNRS / ESYCOM Laboratory (UMR CNRS 9007)**.  

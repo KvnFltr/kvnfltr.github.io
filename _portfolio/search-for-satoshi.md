@@ -5,11 +5,12 @@ collection: portfolio
 permalink: /portfolio/search-for-satoshi/
 ---
 
-A single-player **Java** adventure game (Zuul variant) built for the *IPO* course.  
+A single-player **Java** adventure game (Zuul variant).  
 You play an investigator mandated by the IMF to locate **Satoshi Nakamoto’s HQ** and press the kill-switch to stop Bitcoin—before time runs out.
 
 <p>
-  <a class="btn btn--primary" href="/files/rapport_zuul_satoshi.pdf" target="_blank" rel="noopener">Project Report (PDF, fr)</a>
+  <a class="btn btn--primary" href="https://github.com/KvnFltr/search-for-satoshi" target="_blank" rel="noopener">GitHub Repository</a>
+  <a class="btn" href="/files/rapport_zuul_satoshi.pdf" target="_blank" rel="noopener">Project Report (PDF, fr)</a>
 </p>
 
 ### Overview
@@ -36,9 +37,3 @@ You play an investigator mandated by the IMF to locate **Satoshi Nakamoto’s HQ
 - Refactoring with **encapsulation**, **HashMap** exits/items, and a clean **Room / Player / Item / ItemList** split.
 - Robust command set (`take`, `drop`, `inventory`, `eat`, `back`, `charge`, `fire`, `stopBTC`, …) and **JUnit-style tests + Javadoc**.
 - Clear **win/lose** flow and GUI messages; small **scripts** to auto-test command sequences.
-
----
-
-**Notes**
-- Put the report at: `/files/rapport_zuul_satoshi.pdf`.  
-- Save the map image at: `/images/satoshi-map.png`.

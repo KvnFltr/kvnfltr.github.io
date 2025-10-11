@@ -9,7 +9,7 @@ redirect_from:
 
 🎓 I study **AI & Data Science** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track).
 
-👀 I’m interested in **applied machine learning**, careful evaluation, and building small, usable systems from real data.
+👀 I’m interested in **applied machine learning**, careful evaluation, and building usable systems from real data.
 
 🚀 I co-founded an **AI review-intelligence SaaS**: **[reaply.ai](https://reaply.ai)**
 
@@ -21,7 +21,7 @@ redirect_from:
 
 Since **April 2024**, I have been a Co-Founder at **[Reaply](https://reaply.ai)**, building applied AI for review intelligence. I work on the data pipeline that processes **10k+ reviews/day** across **200+ locations** (collection, cleaning, cloud storage with Python) and on the analytics layer—multilingual auto-replies and key insights (themes, sentiment, intent) via external integrations. *Paris, Apr 2024–present.*
 
-I previously interned at the **CNRS / ESYCOM Laboratory**. My work was to **simulate and test a conditioning circuit for a triboelectric nanogenerator (TENG)** to harvest energy and **power a Bluetooth transmission to a smartphone**. The study was inspired by the Nature paper *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.
+I previously interned at the **ESYCOM Laboratory**. My work was to **simulate and test a conditioning circuit for a triboelectric nanogenerator (TENG)** to harvest energy and **power a Bluetooth transmission to a smartphone**. The study was inspired by the Nature paper *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.
 
 For **four years**, I ran **MyStyle Media Agency**, a social-media analytics venture that evaluated Instagram accounts with quantitative methods to select creators for brand campaigns; I also operated a **140k-follower** channel.
 

@@ -48,7 +48,7 @@ A complete **hardware build** of a parking assistant, going from **schematics** 
 ---
 
 <figure>
-  <img src="/images/parking-radar-photo.png" alt="Photo of the assembled parking radar hardware" width="980">
+  <img src="/images/parking-radar-photo.jpg" alt="Photo of the assembled parking radar hardware" width="980">
   <figcaption><strong>Figure 4.</strong> Assembled hardware (bench photo).</figcaption>
 </figure>
 

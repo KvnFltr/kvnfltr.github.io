@@ -1,12 +1,12 @@
 ---
-title: "The Search for Satoshi — Java Text Adventure"
+title: "The Search for Satoshi: Java Text Adventure"
 excerpt: "GUI-based adventure where you hunt Satoshi Nakamoto across a village map. Teleporter, keys, inventory, timer, and a win/lose path.<br/><img src='/images/satoshi-map.png' alt='Game map: \"The Search for Satoshi\"' width='500'/>"
 collection: portfolio
 permalink: /portfolio/search-for-satoshi/
 ---
 
 A single-player **Java** adventure game (Zuul variant).  
-You play an investigator mandated by the IMF to locate **Satoshi Nakamoto’s HQ** and press the kill-switch to stop Bitcoin—before time runs out.
+You play an investigator mandated by the IMF to locate **Satoshi Nakamoto’s HQ** and press the kill-switch to stop Bitcoin before time runs out.
 
 <p>
   <a class="btn btn--primary" href="https://github.com/KvnFltr/search-for-satoshi" target="_blank" rel="noopener">GitHub Repository</a>
@@ -30,7 +30,7 @@ You play an investigator mandated by the IMF to locate **Satoshi Nakamoto’s HQ
 ### Map
 <figure>
   <img src="/images/satoshi-map.png" alt="Map of the game world with suspects and special rooms" width="980">
-  <figcaption><strong>Figure.</strong> World layout — streets, suspects’ homes, HQ, and special rooms.</figcaption>
+  <figcaption><strong>Figure.</strong> World layout: streets, suspects’ homes, HQ, and special rooms.</figcaption>
 </figure>
 
 ### What I implemented

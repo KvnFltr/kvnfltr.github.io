@@ -5,8 +5,9 @@ collection: portfolio
 permalink: /portfolio/face-recognition/
 ---
 
-Course project in **AI & Deep Learning** at **ESIEE Paris**, co-authored with **Lubin Benoit** and supervised by **Prof. Laurent Najman**.  
-We built an end-to-end **face recognition** pipeline—from raw images to identities—then measured the impact of each stage.
+Project in **AI & Deep Learning** at **ESIEE Paris**, co-authored with **Lubin Benoit**.  
+**Supervisor:** Prof. **Laurent Najman**.  
+We built an end-to-end **face recognition** pipeline from raw images to identities, and then measured the impact of each stage.
 
 <p>
   <a class="btn btn--primary" href="https://github.com/KvnFltr/face-recognition" target="_blank" rel="noopener">GitHub code</a>
@@ -19,19 +20,19 @@ Two datasets:
 - A **personal dataset** (10 people, 50–110 photos each) to check generalization and bias.
 
 ### Pipeline (what we compared)
-1. **Detection** — dlib HOG vs **CNN** detector; we crop and resize faces to **128×128**.  
-2. **Pose/Alignment** — facial **landmarks** (5/68 pts) + affine align; reduces pose variance.  
-3. **Encoding** — 128-D **embeddings** (OpenFace-style) for compact, robust features.  
-4. **Classification** — **Logistic Regression**, **Linear SVM**, **kNN**, and a small **NN**.
+1. **Detection**: dlib HOG vs **CNN** detector; faces cropped and resized to **128×128**.  
+2. **Pose/Alignment**: facial **landmarks** (5/68 pts) + affine align; reduces pose variance.  
+3. **Encoding**: 128-D **embeddings** (OpenFace-style) for compact, robust features.  
+4. **Classification**: **Logistic Regression**, **Linear SVM**, **kNN**, and a small **NN**.
 
-**Headline result:** with embeddings, several classifiers reach **~97% accuracy** on test;  
-**Logistic Regression** and **Linear SVM** are the **fastest** at inference (ms range).
+**Headline result:** with embeddings, several classifiers reach **~97% accuracy** on test.  
+**Logistic Regression** and **Linear SVM** are the **fastest** at inference (milliseconds).
 
 ---
 
 <figure>
   <img src="/images/face-extract.png" alt="Face detection and crop" width="980">
-  <figcaption><strong>Figure 1.</strong> Detection & crop before any alignment.</figcaption>
+  <figcaption><strong>Figure 1.</strong> Detection and crop before any alignment.</figcaption>
 </figure>
 
 ---
@@ -45,7 +46,7 @@ Two datasets:
 
 <figure>
   <img src="/images/align-before-after.png" alt="Alignment via facial landmarks" width="980">
-  <figcaption><strong>Figure 3.</strong> Alignment with landmarks—reduces pose variance before training.</figcaption>
+  <figcaption><strong>Figure 3.</strong> Alignment with landmarks reduces pose variance before training.</figcaption>
 </figure>
 
 ---
@@ -66,19 +67,18 @@ Two datasets:
 
 <figure>
   <img src="/images/models-compare.png" alt="Classifier comparison: Logistic, SVM, kNN, NN" width="980">
-  <figcaption><strong>Figure 6.</strong> Classifier comparison (same embeddings): all ~97% accuracy; Logistic/SVM are the quickest.</figcaption>
+  <figcaption><strong>Figure 6.</strong> Classifier comparison (same embeddings). All are around 97% accuracy; Logistic/SVM are the quickest.</figcaption>
 </figure>
 
 ---
 
 <figure>
   <img src="/images/f1-per-class.png" alt="Per-class F1 scores on personal dataset" width="980">
-  <figcaption><strong>Figure 7.</strong> Per-class F1 on the personal dataset—balanced scores, no obvious single-class collapse.</figcaption>
+  <figcaption><strong>Figure 7.</strong> Per-class F1 on the personal dataset shows balanced scores with no single-class collapse.</figcaption>
 </figure>
 
 ### Notes & takeaways
-- **Alignment** helps shallow convnets; deep models were already robust on this scale.  
-- **Embeddings** remove background/lighting noise and make simple classifiers shine.  
+- **Alignment** helps shallow convnets; deeper models were already robust on this scale.  
+- **Embeddings** remove background and lighting noise and let simple classifiers shine.  
 - **Speed matters:** for deployment, **LogReg/SVM** give near-NN accuracy with far lower latency.  
-- **Bias check:** with a more varied personal set, accuracy stays high (≈94–98%), but performance depends on data quality and diversity—worth monitoring if scaled.
-
+- **Bias check:** with a more varied personal set, accuracy stays high (≈94–98%), but performance depends on data quality and diversity; this is worth monitoring if scaled.

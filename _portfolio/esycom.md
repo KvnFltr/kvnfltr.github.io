@@ -1,15 +1,15 @@
 ---
-title: "CNRS / ESYCOM — Energy harvesting with TENG"
+title: "CNRS / ESYCOM: Energy harvesting with TENG"
 excerpt: "Conditioning circuit for a triboelectric nanogenerator powering a Bluetooth node.<br/><img src='/images/esycom-schematic.png' alt='ESYCOM schematic' width='500'/>"
 collection: portfolio
 permalink: /portfolio/esycom-teng/
 ---
 
-
 Four-week research internship at the **CNRS / ESYCOM Laboratory (UMR CNRS 9007)**.  
+**Supervisor:** Prof. **Philippe Basset**.  
 **Goal:** simulate and validate a **conditioning circuit** for a **Triboelectric Nanogenerator (TENG)** that harvests mechanical energy (vehicle pass) and **powers a Bluetooth transmission** to a smartphone.
 
-**Reference:** Nature Communications — *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.  
+**Reference:** Nature Communications: *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.  
 <p>
   <a class="btn btn--primary" href="https://www.nature.com/articles/s41467-020-17019-5" target="_blank" rel="noopener">Nature article</a>
   <a class="btn" href="/files/rapport_esycom.pdf" target="_blank" rel="noopener">Report (PDF, in french)</a>
@@ -17,7 +17,7 @@ Four-week research internship at the **CNRS / ESYCOM Laboratory (UMR CNRS 9007)*
 </p>
 
 ### Context & Objective
-TENG devices deliver **high-voltage, low-current, pulsed** outputs—not directly usable by electronics. The project adapts the two-stage chain from the paper—**Bennet doubler → hysteresis switch → step-down DC-DC → regulator**—to store energy and supply **~3.3–3.6 V** for a Bluetooth node.  
+TENG devices deliver **high-voltage, low-current, pulsed** outputs, not directly usable by electronics. The project adapts the two-stage chain from the paper: **Bennet doubler → hysteresis switch → step-down DC-DC → regulator** to store energy and supply **~3.3–3.6 V** for a Bluetooth node.  
 My task was to **compare circuit options**, **model** them in **LTSpice**, and **verify** behaviors on a **bench prototype** and **on-site tests**.
 
 ### Approach
@@ -55,15 +55,15 @@ My task was to **compare circuit options**, **model** them in **LTSpice**, and *
 ---
 
 <figure>
-  <img src="/images/esycom-nodeN.png" alt="LTSpice – voltage at node N" width="980">
-  <figcaption><strong>Figure 3.</strong> LTSpice — <em>Node N</em>: cumulative charge with sawtooth growth prior to switching.</figcaption>
+  <img src="/images/esycom-nodeN.png" alt="LTSpice: voltage at node N" width="980">
+  <figcaption><strong>Figure 3.</strong> LTSpice: <em>Node N</em> shows cumulative charge with sawtooth growth prior to switching.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/esycom-output.png" alt="LTSpice – regulated output Q ≈ 3.3 V" width="980">
-  <figcaption><strong>Figure 4.</strong> LTSpice — regulated output <em>Q</em> ≈ 3.3 V for the Bluetooth node.</figcaption>
+  <img src="/images/esycom-output.png" alt="LTSpice: regulated output Q ≈ 3.3 V" width="980">
+  <figcaption><strong>Figure 4.</strong> LTSpice: regulated output <em>Q</em> ≈ 3.3 V for the Bluetooth node.</figcaption>
 </figure>
 
 ---

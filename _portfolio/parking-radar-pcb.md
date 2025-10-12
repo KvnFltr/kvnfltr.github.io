@@ -1,11 +1,13 @@
 ---
-title: "Parking Radar — From Schematics to PCB"
-excerpt: "Discrete-component parking sensor: IR distance + relay-driven motor, speaker output, and LED bar — designed, routed, and documented.<br/><img src='/images/parking-radar-3d.png' alt='3D view of the PCB' width='500'/>"
+title: "Parking Radar: From Schematics to PCB"
+excerpt: "Discrete-component parking sensor: IR distance, relay-driven motor, speaker output and LED bar. Designed, routed and documented.<br/><img src='/images/parking-radar-3d.png' alt='3D view of the PCB' width='500'/>"
 collection: portfolio
 permalink: /portfolio/parking-radar-pcb/
 ---
 
-A complete **hardware build** of a parking assistant, going from **schematics** to a fabricated, routed **2-layer PCB** and bench validation.
+A complete **hardware build** of a parking assistant, from **schematics** to a fabricated, routed **2-layer PCB** and bench validation.  
+**Supervisor:** Prof. **Ludovic Noury**.  
+**Built with:** **Mathis Dos Santos**.
 
 <p>
   <a class="btn btn--primary" href="/files/rapport_pcb.pdf" target="_blank" rel="noopener">Project Report (PDF, fr)</a>
@@ -13,16 +15,16 @@ A complete **hardware build** of a parking assistant, going from **schematics** 
 
 ### What it does
 - Senses distance with a **SHARP GP2Y0A21YK0F** IR sensor (raw or amplified path).  
-- Drives a **DC motor/actuator** through a **Finder 36.11 relay** and **PN2222A** transistor.  
+- Drives a **DC motor/actuator** through a **Finder 36.11** relay and **PN2222A** transistor.  
 - **Speaker output** with a selectable first-order **RC low-pass** filter for tone smoothing.  
-- **LED bar** indicates proximity (three channels).  
+- **LED bar** indicates proximity on three channels.  
 - Microcontroller/FPGA-friendly I/O (3.3 V logic, 5 V power domain).
 
 ### Design highlights
-- **Amplifier**: **LM358** non-inverting stage with adjustable gain (potentiometer), decoupled rails.  
-- **Protection**: flyback diodes on motor & relay, local decoupling (100 nF).  
-- **Power**: single **5 V** supply; trace class sized for ~**210 mA** max on the 5 V net.  
-- **Board**: ~**54 × 63 mm**, **2 layers**, **0 vias** (kept simple for fab); labeled jumpers to select raw vs amplified sensor, filtered vs direct audio.
+- **Amplifier:** **LM358** non-inverting stage with adjustable gain (potentiometer), decoupled rails.  
+- **Protection:** flyback diodes on motor and relay, local decoupling (100 nF).  
+- **Power:** single **5 V** supply; trace class sized for about **210 mA** max on the 5 V net.  
+- **Board:** ~**54 × 63 mm**, **2 layers**, **0 vias**; labeled jumpers to select raw vs amplified sensor and filtered vs direct audio.
 
 ---
 
@@ -42,13 +44,13 @@ A complete **hardware build** of a parking assistant, going from **schematics** 
 
 <figure>
   <img src="/images/parking-radar-schematic.png" alt="Complete schematic: sensor, amplifier, relay driver, speaker, LED bar" width="980">
-  <figcaption><strong>Figure 3.</strong> Full schematic: sensor front-end, LM358 amplifier, relay driver, speaker path with RC filter, and LED bar.</figcaption>
+  <figcaption><strong>Figure 3.</strong> Full schematic: sensor front-end, LM358 amplifier, relay driver, speaker path with RC filter and LED bar.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/parking-radar-photo.jpg" alt="Photo of the assembled parking radar hardware" width="980">
+  <img src="/images/parking-radar-photo.png" alt="Photo of the assembled parking radar hardware" width="980">
   <figcaption><strong>Figure 4.</strong> Assembled hardware (bench photo).</figcaption>
 </figure>
 

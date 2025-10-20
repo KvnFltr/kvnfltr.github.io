@@ -28,6 +28,6 @@ For **four years**, I ran **MyStyle Media Agency**, a social-media analytics ven
 ---
 
 ## 📚 Teaching and Community Contributions
-I **tutor mathematics** for first-year undergraduate students (algebra and calculus). I prepare targeted exercise sets, work through exam-style problems, and provide brief written feedback after each session.
+I currently **tutor** first-year undergraduates in **algebra and calculus**, designing targeted exercises, solving exam-style problems together, and providing brief written feedback after each session.
 
 I am the **Secretary-General of Jeunes Français de l’Étranger (JFDE)**. JFDE is a national youth association that represents and supports young French expatriates through advocacy, community programs, and networking.

@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Welcome to my portfolio!"
+title: "About"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-# About
 
 I study **Data Science & AI** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track).  
 I am co-founder of **[Reaply](https://reaply.ai)**, an AI platform that **ingests, cleans, manages, and exports customer reviews** at scale, with analytics and assisted replies for multi-site brands.  

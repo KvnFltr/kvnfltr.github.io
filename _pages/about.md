@@ -1,33 +1,42 @@
 ---
 permalink: /
-title: "👋🏼 Hello there, I’m Kévin!"
+title: "Hello, I’m Kévin"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-🎓 I study **AI & Data Science** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track).
+# About
 
-👀 I’m interested in **applied machine learning**, careful evaluation, and building usable systems from real data.
-
-🚀 I co-founded an **AI review-intelligence SaaS**: **[reaply.ai](https://reaply.ai)**
-
----
-
-## Selected Experience
-
-### 👨🏻‍🔬 Professional / Research Experience
-
-Since **April 2024**, I have been a Co-Founder at **[Reaply](https://reaply.ai)**, building applied AI for review intelligence. I work on the data pipeline that processes **10k+ reviews/day** across **200+ locations** (collection, cleaning, cloud storage with Python) and on the analytics layer—multilingual auto-replies and key insights (themes, sentiment, intent) via external integrations. *Paris, Apr 2024–present.*
-
-I previously interned at the **ESYCOM Laboratory**. My work was to **simulate and test a conditioning circuit for a triboelectric nanogenerator (TENG)** to harvest energy and **power a Bluetooth transmission to a smartphone**. The study was inspired by the Nature paper *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.
-
-For **four years**, I ran **MyStyle Media Agency**, a social-media analytics venture that evaluated Instagram accounts with quantitative methods to select creators for brand campaigns; I also operated a **140k-follower** channel.
+I study **Data Science & AI** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track).  
+I am co-founder of **[Reaply](https://reaply.ai)**, an AI review-intelligence platform for multi-site brands.  
+Focus: applied machine learning, rigorous evaluation, and production systems from real data.
 
 ---
 
-## 📚 Teaching and Community Contributions
-I currently **tutor** first-year undergraduates in **algebra and calculus**, designing targeted exercises, solving exam-style problems together, and providing brief written feedback after each session.
+## Now
 
-I am the **Secretary-General of Jeunes Français de l’Étranger (JFDE)**. JFDE is a national youth association that represents and supports young French expatriates through advocacy, community programs, and networking.
+### Ongoing Research
+**Tremplin Recherche — Extending the *Morse Frames* Framework**  
+Advisors: **Prof. Laurent Najman** and **Prof. Gilles Bertrand**.
+
+Topic: *Morse sequences and image segmentation* via discrete Morse theory.  
+Scope:
+- Build **discrete Morse complexes** on 2D/3D images  
+- Define **topological criteria** for region merge/split  
+- **Benchmark** vs. watershed, graph cuts, and deep learning  
+- **Integrate Morse frames** into a computer-vision pipeline
+
+---
+
+## Teaching and Community
+
+- **First-year tutoring (university):** mathematics, physics, **Java basics**, and **electronics**. I assist during sessions, answer questions, and provide short written feedback after class.  
+- **Secretary-General, Jeunes Français de l’Étranger (JFDE):** advocacy, programs, and networking for young French expatriates.
+
+---
+
+## Open to
+
+Research or engineering internships where applied ML meets impact.

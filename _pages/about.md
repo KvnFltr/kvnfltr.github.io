@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Welcome to my portfolio!"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
 # About
 
 I study **Data Science & AI** at **ESIEE Paris** and **Physics** at **Sorbonne University** (parallel track).  
@@ -23,7 +32,7 @@ Scope:
 
 ## Teaching and Community
 
-- **First-year tutoring (university):** mathematics, physics, **Java basics**, and **electronics**. I assist during sessions, answer questions, and provide short written feedback after class.  
+- **First-year tutoring (university):** mathematics, physics, **Java basics**, and **electronics**. I teach and assist during sessions, answer questions, and provide short written feedback after class.  
 - **Secretary-General, Jeunes Français de l’Étranger (JFDE):** representing young French expatriates to the French government.
 
 ---

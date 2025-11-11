@@ -60,4 +60,5 @@ Production ML/NLP stack for multi-site brands:
 
 Research or engineering internships where applied ML meets impact.  
 Topics welcome: computer vision, discrete/geometry-aware learning, robustness, fairness, ML systems.
+
 ---

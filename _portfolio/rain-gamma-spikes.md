@@ -10,8 +10,18 @@ We built an end-to-end pipeline and dashboard to study how rainfall is associate
 
 <p>
   <a class="btn btn--primary" href="https://github.com/KvnFltr/rain-gamma-spikes-france" target="_blank" rel="noopener">GitHub code</a>
-  <a class="btn" href="[LINK_TO_VIDEO](https://drive.google.com/file/d/1WO46rHsxPQDHV1-Di-vbB5CeSbxnhrkD/view?usp=sharing)" target="_blank" rel="noopener">Demo video</a>
 </p>
+
+<figure class="video">
+  <iframe
+    src="https://drive.google.com/file/d/1WO46rHsxPQDHV1-Di-vbB5CeSbxnhrkD/preview"
+    width="980"
+    height="551"
+    allow="autoplay"
+    allowfullscreen>
+  </iframe>
+  <figcaption><strong>Demo.</strong> Walkthrough of the Rain &amp; Dust Spikes Dashboard.</figcaption>
+</figure>
 
 ### Problem & data
 

@@ -1,6 +1,6 @@
 ---
 title: "Parking Radar: From Schematics to PCB"
-excerpt: "Discrete-component parking sensor: IR distance, relay-driven motor, speaker output and LED bar. Designed, routed and documented.<br/><img src='/images/parking-radar-3d.png' alt='3D view of the PCB' width='500'/>"
+excerpt: "A parking sensor designed from schematics to a two-layer PCB, with IR distance sensing and actuator control."
 collection: portfolio
 permalink: /portfolio/parking-radar-pcb/
 ---
@@ -29,35 +29,27 @@ A complete **hardware build** of a parking assistant, from **schematics** to a f
 ---
 
 <figure>
-  <img src="/images/parking-radar-3d.png" alt="3D render of the assembled PCB" width="980">
+  <img src="/images/parking-radar-3d.png" alt="3D render of the assembled PCB" width="781" height="677" loading="lazy" decoding="async">
   <figcaption><strong>Figure 1.</strong> 3D view of the assembled PCB (KiCad 3D viewer).</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/parking-radar-layout.png" alt="PCB layout with footprints and routing" width="980">
+  <img src="/images/parking-radar-layout.png" alt="PCB layout with footprints and routing" width="878" height="766" loading="lazy" decoding="async">
   <figcaption><strong>Figure 2.</strong> Routed layout (2 layers) with clear silkscreen for assembly and test.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/parking-radar-schematic.png" alt="Complete schematic: sensor, amplifier, relay driver, speaker, LED bar" width="980">
+  <img src="/images/parking-radar-schematic.png" alt="Complete schematic: sensor, amplifier, relay driver, speaker, LED bar" width="1177" height="808" loading="lazy" decoding="async">
   <figcaption><strong>Figure 3.</strong> Full schematic: sensor front-end, LM358 amplifier, relay driver, speaker path with RC filter and LED bar.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/parking-radar-photo.png" alt="Photo of the assembled parking radar hardware" width="980">
+  <img src="/images/parking-radar-photo.jpg" alt="Photo of the assembled parking radar hardware" width="4080" height="3060" loading="lazy" decoding="async">
   <figcaption><strong>Figure 4.</strong> Assembled hardware (bench photo).</figcaption>
 </figure>
-
-### Notes
-- Put the PDF report at **`/files/rapport_pcb.pdf`**.  
-- Save the images at:
-  - **`/images/parking-radar-3d.png`** (3D render)
-  - **`/images/parking-radar-layout.png`** (layout)
-  - **`/images/parking-radar-schematic.png`** (schematic)
-  - **`/images/parking-radar-photo.png`** (real hardware photo)

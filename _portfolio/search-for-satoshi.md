@@ -1,6 +1,6 @@
 ---
 title: "The Search for Satoshi: Java Text Adventure"
-excerpt: "GUI-based adventure where you hunt Satoshi Nakamoto across a village map. Teleporter, keys, inventory, timer, and a win/lose path.<br/><img src='/images/satoshi-map.png' alt='Game map: \"The Search for Satoshi\"' width='500'/>"
+excerpt: "Java adventure game with a Swing interface, inventory and room models, scripted command tests, and Javadoc."
 collection: portfolio
 permalink: /portfolio/search-for-satoshi/
 ---
@@ -29,11 +29,11 @@ You play an investigator mandated by the IMF to locate **Satoshi Nakamoto’s HQ
 
 ### Map
 <figure>
-  <img src="/images/satoshi-map.png" alt="Map of the game world with suspects and special rooms" width="980">
+  <img src="/images/satoshi-map.png" alt="Map of the game world with suspects and special rooms" width="825" height="571" loading="lazy" decoding="async">
   <figcaption><strong>Figure.</strong> World layout: streets, suspects’ homes, HQ, and special rooms.</figcaption>
 </figure>
 
 ### What I implemented
 - Refactoring with **encapsulation**, **HashMap** exits/items, and a clean **Room / Player / Item / ItemList** split.
-- Robust command set (`take`, `drop`, `inventory`, `eat`, `back`, `charge`, `fire`, `stopBTC`, …) and **JUnit-style tests + Javadoc**.
+- Command set (`take`, `drop`, `inventory`, `eat`, `back`, `charge`, `fire`, `stopBTC`, …), **scripted command-sequence tests**, and **Javadoc**.
 - Clear **win/lose** flow and GUI messages; small **scripts** to auto-test command sequences.

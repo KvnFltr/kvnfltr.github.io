@@ -1,6 +1,6 @@
 ---
 title: "CNRS / ESYCOM: Energy harvesting with TENG"
-excerpt: "Conditioning circuit for a triboelectric nanogenerator powering a Bluetooth node.<br/><img src='/images/esycom-schematic.png' alt='ESYCOM schematic' width='500'/>"
+excerpt: "Research internship: LTSpice modeling and bench measurements of an energy-harvesting circuit for a Bluetooth node."
 collection: portfolio
 permalink: /portfolio/esycom-teng/
 ---
@@ -9,11 +9,10 @@ Four-week research internship at the **CNRS / ESYCOM Laboratory (UMR CNRS 9007)*
 **Supervisor:** [Prof. Philippe Basset](https://perso.esiee.fr/~bassetp/).  
 **Goal:** simulate and validate a **conditioning circuit** for a **Triboelectric Nanogenerator (TENG)** that harvests mechanical energy (vehicle pass) and **powers a Bluetooth transmission** to a smartphone.
 
-**Reference:** Nature Communications: *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.  
+**Background research:** the project builds on the Nature Communications article *“Employing a MEMS plasma switch for conditioning high-voltage kinetic energy harvesters”*.
 <p>
-  <a class="btn btn--primary" href="https://www.nature.com/articles/s41467-020-17019-5" target="_blank" rel="noopener">Nature article</a>
+  <a class="btn btn--primary" href="https://www.nature.com/articles/s41467-020-17019-5" target="_blank" rel="noopener">Background paper</a>
   <a class="btn" href="/files/rapport_esycom.pdf" target="_blank" rel="noopener">Report (PDF, in french)</a>
-  <a class="btn" href="/files/presentation_esycom.pptx" target="_blank" rel="noopener">Slides (PPTX)</a>
 </p>
 
 ### Context & Objective
@@ -41,41 +40,41 @@ My task was to **compare circuit options**, **model** them in **LTSpice**, and *
 ---
 
 <figure>
-  <img src="/images/esycom-schematic.png" alt="Conditioning chain: Bennet doubler → hysteresis switch → step-down DC-DC → regulator → load" width="980">
+  <img src="/images/esycom-schematic.png" alt="Conditioning chain: Bennet doubler → hysteresis switch → step-down DC-DC → regulator → load" width="1575" height="697" loading="lazy" decoding="async">
   <figcaption><strong>Figure 1.</strong> High-level conditioning chain from TENG to regulated output with probe nodes (M, N, P, Q).</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/esycom-device.png" alt="Energy-harvesting ramp used for vehicle pass tests" width="980">
+  <img src="/images/esycom-device.png" alt="Energy-harvesting ramp used for vehicle pass tests" width="1011" height="765" loading="lazy" decoding="async">
   <figcaption><strong>Figure 2.</strong> Energy-harvesting ramp used for <em>vehicle pass</em> tests to feed the TENG module.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/esycom-nodeN.png" alt="LTSpice: voltage at node N" width="980">
+  <img src="/images/esycom-nodeN.png" alt="LTSpice: voltage at node N" width="1387" height="433" loading="lazy" decoding="async">
   <figcaption><strong>Figure 3.</strong> LTSpice: <em>Node N</em> shows cumulative charge with sawtooth growth prior to switching.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/esycom-output.png" alt="LTSpice: regulated output Q ≈ 3.3 V" width="980">
+  <img src="/images/esycom-output.png" alt="LTSpice: regulated output Q ≈ 3.3 V" width="1405" height="415" loading="lazy" decoding="async">
   <figcaption><strong>Figure 4.</strong> LTSpice: regulated output <em>Q</em> ≈ 3.3 V for the Bluetooth node.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/esycom-bench.png" alt="Bench prototype of the conditioning circuit" width="980">
+  <img src="/images/esycom-bench.png" alt="Bench prototype of the conditioning circuit" width="1205" height="747" loading="lazy" decoding="async">
   <figcaption><strong>Figure 5.</strong> Bench prototype and oscilloscope captures.</figcaption>
 </figure>
 
 ---
 
 <figure>
-  <img src="/images/esycom-teng.png" alt="Triboelectric Nanogenerator (TENG) element" width="980">
+  <img src="/images/esycom-teng.png" alt="Triboelectric Nanogenerator (TENG) element" width="1220" height="816" loading="lazy" decoding="async">
   <figcaption><strong>Figure 6.</strong> Triboelectric Nanogenerator (TENG) element.</figcaption>
 </figure>

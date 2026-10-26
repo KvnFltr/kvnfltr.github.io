@@ -1,18 +1,20 @@
 ---
 title: "UniSpace: Campus Room Booking"
-excerpt: "Real-time room availability and booking for ESIEE Paris. 🏆 Jury’s Choice (Coup de Cœur) at the 20th ESIEE “Jour des Projets” student engineering expo.<br/><img src='/images/unispace-stand.jpeg' alt='UniSpace stand' width='500'>"
+excerpt: "Flutter and Firebase room-booking app. Jury’s Choice (Coup de Cœur) at ESIEE Paris’s Jour des Projets."
 collection: portfolio
+featured: true
+order: 4
+category_label: "Software engineering · Team project · 2025"
+permalink: /portfolio/unispace/
 ---
 
 **UniSpace** is a mobile and web app to check **real-time room availability**, **book rooms** with guardrails, and manage **office-hour slots**.  
 🏆 **Award:** **Jury’s Choice (Coup de Cœur)** at the **20th ESIEE “Jour des Projets”**, an annual showcase where student teams present engineering projects to a professional jury.  
 👨‍🏫 **Supervisor:** Prof. **Hassane Mimoun**.  
 👥 **Built with:** **Melchior Laurens**, **Nicolas Beaudet**, **Vadim Leupe**.  
-📱 **Coming soon** to the **App Store** and **Google Play**.
 
 <p>
-  <a class="btn btn--primary" href="https://github.com/nikxo/unispace" target="_blank" rel="noopener">Source code</a>
-  <a class="btn" href="/files/rapport_unispace.pdf" target="_blank" rel="noopener">Report (PDF, in French)</a>
+  <a class="btn btn--primary" href="/files/rapport_unispace.pdf" target="_blank" rel="noopener">Report (PDF, in French)</a>
 </p>
 
 ### Why
@@ -34,10 +36,10 @@ Finding an open room was slow (ADE views are per room, no fast filtering or book
 Backend and data model (**Firestore schema**), **Cloud Functions** (availability, booking lifecycle, reminders, iCal import), auth/roles, and filtering/performance.
 
 ### Screens
-<img src="/images/unispace-mockup.png" alt="UniSpace mockups" width="900"/>
+<img src="/images/unispace-mockup.png" alt="UniSpace mockups" width="701" height="570" loading="lazy" decoding="async">
 
 ---
 
-*Photos: stand above; award badge below.*
+*Award received at ESIEE Paris’s Jour des Projets.*
 
-<img src="/images/unispace-award.jpeg" alt="UniSpace - Coup de Cœur award (20th ESIEE Jour des Projets)" width="900"/>
+<img src="/images/unispace-award.jpeg" alt="UniSpace - Coup de Cœur award (20th ESIEE Jour des Projets)" width="1600" height="903" loading="lazy" decoding="async">

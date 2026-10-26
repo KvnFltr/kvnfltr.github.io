@@ -1,14 +1,27 @@
 ---
-layout: archive
-title: "Portfolio"
+title: "Selected work"
 permalink: /portfolio/
-author_profile: true
+description: "Research, machine learning and software projects by Kévin Feltrin, with source code and technical reports."
 ---
 
-{% include base_path %}
+<p>Research, products and coursework, with technical details, source code and reports.</p>
+<ul class="work-list">
+  {% assign selected = site.portfolio | where: 'featured', true | sort: 'order' %}
+  {% for project in selected %}
+  <li>
+    <span class="work-meta">{{ project.category_label }}</span>
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    <p>{{ project.excerpt | strip_html }}</p>
+  </li>
+  {% endfor %}
+</ul>
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Earlier engineering projects</h2>
+<ul class="compact-list">
+  {% for project in site.portfolio %}
+  {% unless project.featured %}
+  <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a><br><span class="muted">{{ project.excerpt | strip_html }}</span></li>
+  {% endunless %}
+  {% endfor %}
+</ul>
 

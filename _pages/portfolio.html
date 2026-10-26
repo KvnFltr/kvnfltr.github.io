@@ -10,7 +10,7 @@ description: "Research, machine learning and software projects by Kévin Feltrin
   {% for project in selected %}
   <li>
     <span class="work-meta">{{ project.category_label }}</span>
-    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
     <p>{{ project.excerpt | strip_html }}</p>
   </li>
   {% endfor %}

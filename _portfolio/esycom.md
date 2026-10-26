@@ -15,11 +15,11 @@ Four-week research internship at the **CNRS / ESYCOM Laboratory (UMR CNRS 9007)*
   <a class="btn" href="/files/rapport_esycom.pdf" target="_blank" rel="noopener">Report (PDF, in french)</a>
 </p>
 
-### Context & Objective
+## Context & Objective
 TENG devices deliver **high-voltage, low-current, pulsed** outputs, not directly usable by electronics. The project adapts the two-stage chain from the paper: **Bennet doubler → hysteresis switch → step-down DC-DC → regulator** to store energy and supply **~3.3–3.6 V** for a Bluetooth node.  
 My task was to **compare circuit options**, **model** them in **LTSpice**, and **verify** behaviors on a **bench prototype** and **on-site tests**.
 
-### Approach
+## Approach
 1. **Modeling.** Full path in LTSpice with parametric sweeps of:
    - Bennet doubler capacitors/diodes (charging efficiency)  
    - Hysteresis thresholds (switching stability & charge bursts)  
@@ -27,12 +27,12 @@ My task was to **compare circuit options**, **model** them in **LTSpice**, and *
 2. **Measurement.** Prototype assembled; **node voltages** (M, N, P, Q) captured on scope.  
 3. **Field test.** Validation with a **vehicle pass** over the ramp; alignment/friction tuned for repeatability.
 
-### Selected results
+## Selected results
 - **Node N** shows the expected sawtooth charge then burst discharge when the **hysteresis** triggers.  
 - **Output Q** reaches a **stable ~3.3 V**, enough to boot a Bluetooth node; storage sizing trades start-up time vs stability.  
 - **Practical note:** mechanical coupling dominates variance; small changes in ramp pressure/position noticeably affect available energy.
 
-### What I did
+## What I did
 - **LTSpice modeling & sweeps** (Bennet, thresholds, storage).  
 - **Bench measurements** and consolidation into **operating windows** hitting the 3.3 V target.  
 - **Recommendations:** improved mechanical fixture, lower-drop diodes, and soft-start on the DC-DC stage.

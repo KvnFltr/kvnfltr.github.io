@@ -13,14 +13,14 @@ A complete **hardware build** of a parking assistant, from **schematics** to a f
   <a class="btn btn--primary" href="/files/rapport_pcb.pdf" target="_blank" rel="noopener">Project Report (PDF, fr)</a>
 </p>
 
-### What it does
+## What it does
 - Senses distance with a **SHARP GP2Y0A21YK0F** IR sensor (raw or amplified path).  
 - Drives a **DC motor/actuator** through a **Finder 36.11** relay and **PN2222A** transistor.  
 - **Speaker output** with a selectable first-order **RC low-pass** filter for tone smoothing.  
 - **LED bar** indicates proximity on three channels.  
 - Microcontroller/FPGA-friendly I/O (3.3 V logic, 5 V power domain).
 
-### Design highlights
+## Design highlights
 - **Amplifier:** **LM358** non-inverting stage with adjustable gain (potentiometer), decoupled rails.  
 - **Protection:** flyback diodes on motor and relay, local decoupling (100 nF).  
 - **Power:** single **5 V** supply; trace class sized for about **210 mA** max on the 5 V net.  

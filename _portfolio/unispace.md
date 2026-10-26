@@ -17,25 +17,25 @@ permalink: /portfolio/unispace/
   <a class="btn btn--primary" href="/files/rapport_unispace.pdf" target="_blank" rel="noopener">Report (PDF, in French)</a>
 </p>
 
-### Why
+## Why
 Finding an open room was slow (ADE views are per room, no fast filtering or booking). UniSpace provides one place to **search, filter, and reserve** in seconds.
 
-### What it does
+## What it does
 - **Live availability** with fast filters (type, location, time window)  
 - **Booking** with fair-use limits plus automatic end-of-booking jobs  
 - **Office hours:** teachers publish slots; students get **notifications**  
 - **Favorites** for quick access to rooms or teachers
 
-### How it works
+## How it works
 - **Frontend:** Flutter (mobile and web)  
 - **Backend:** Firebase (**Auth**, **Firestore**, **Cloud Functions**, **Cloud Storage**, **Cloud Tasks**)  
 - **Timetables:** ADE iCal import → normalized events  
 - **Security:** Firestore rules (role-based access, weekly booking caps)
 
-### My role
+## My role
 Backend and data model (**Firestore schema**), **Cloud Functions** (availability, booking lifecycle, reminders, iCal import), auth/roles, and filtering/performance.
 
-### Screens
+## Screens
 <img src="/images/unispace-mockup.png" alt="UniSpace mockups" width="701" height="570" loading="lazy" decoding="async">
 
 ---
